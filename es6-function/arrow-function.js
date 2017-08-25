@@ -18,6 +18,6 @@ var test = (x) => x*x;
    }
  };
 
+ // Arrow function don'r bind the this keyword
  user.sayHi();
  user.sayHiAlt();
- 
